@@ -7,6 +7,11 @@
 📅 Duration: October 2025 – Present
 🖥️ Location: Remote / Self-initiated
 
+⚙️ Key Activities  
+🤖 Developed automated tests using PyTest  
+💻 Configured GitHub Actions for CI workflows  
+📊 Generated test coverage reports with pytest-cov and uploaded to Codecov  
+
 📝 Project Overview
 
 Automation Suite SDET is a Python-based test automation project demonstrating SDET skills including automated testing, CI/CD integration, and code coverage analysis. It is designed as a scalable and maintainable test framework for software projects, showcasing real-world testing practices.
