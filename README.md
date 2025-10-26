@@ -4,8 +4,12 @@
 🤖 Automation Suite SDET (Personal Portfolio)
 💻 Python Tests Coverage Status (Automation Suite SDET)
 
-📅 Duration: October 2025 – Present
-🖥️ Location: Remote / Self-initiated
+📅 Duration  
+October 2025 – Present  
+
+🖥️ Location  
+Remote / Self-initiated
+
 
 
 📝 Project Overview
