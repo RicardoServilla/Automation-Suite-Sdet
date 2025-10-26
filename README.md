@@ -2,15 +2,12 @@
 [![Coverage Status](https://codecov.io/gh/RicardoServilla/Automation-Suite-Sdet/branch/main/graph/badge.svg)](https://codecov.io/gh/RicardoServilla/Automation-Suite-Sdet)
 
 📅 Duration: October 2025 – Present
-
 🖥️ Location: Remote / Self-initiated
 
 📝 Project Overview
-
 Automation Suite SDET is a Python-based test automation project demonstrating SDET skills including automated testing, CI/CD integration, and code coverage analysis. It is designed as a scalable and maintainable test framework for software projects, showcasing real-world testing practices.
 
 ⚙️ Key Activities
-
 🤖 Developed automated tests using PyTest
 💻 Configured GitHub Actions for CI workflows
 📊 Generated test coverage reports with pytest-cov and uploaded to Codecov
@@ -18,7 +15,6 @@ Automation Suite SDET is a Python-based test automation project demonstrating SD
 📄 Documented setup, execution instructions, and best testing practices
 
 💡 Skills Demonstrated
-
 🖥️ Automated testing and software validation
 🔄 Continuous Integration (CI) and workflow automation
 📝 Technical documentation and SDET best practices
@@ -26,27 +22,18 @@ Automation Suite SDET is a Python-based test automation project demonstrating SD
 🚀 How to Run
 
 Clone the repository:
-
-git clone https://github.com/RicardoServilla/Automation-Suite-Sdet.git
-cd Automation-Suite-Sdet
-
+git clone (clone here)
 
 Install dependencies:
-
 pip install -r requirements.txt
 
-
 Run tests:
-
 pytest --cov=src tests/
 
-
 View coverage report (HTML):
-
 open htmlcov/index.html
 
 🏁 Conclusion
-
 This project demonstrates practical SDET and automation engineering skills, including Python test automation, CI/CD pipelines, and coverage reporting. It is a clear example of building maintainable, modular, and scalable test frameworks in Python.
 
 🚧 Status
