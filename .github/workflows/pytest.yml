@@ -9,9 +9,13 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      # define PYTHONPATH para todo o job (github.workspace = repo root)
+      PYTHONPATH: ${{ github.workspace }}
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -23,9 +27,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Debug info
+      run: |
+        echo "Working dir: $(pwd)"
+        echo "List files:"
+        ls -la
+        echo "PYTHONPATH: $PYTHONPATH"
+        python -c "import sys; print('sys.path first entries:', sys.path[:3])"
+
     - name: Run tests
       run: |
-        echo "Exporting PYTHONPATH and running pytest"
-        export PYTHONPATH=C:\Users\ricar\Documents\Automation-Suite-Sdet
-        python -c "import sys; print('PYTHONPATH:', sys.path[0])"
         pytest -q
