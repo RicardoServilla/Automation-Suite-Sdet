@@ -6,58 +6,49 @@
 Automation Test Suite example — PyTest + CI (GitHub Actions) to demonstrate SDET skills.
 
 📅 Duration: October 2025 – Present
+
 🖥️ Location: Remote / Self-initiated
 
 📝 Project Overview
-Exemplo de suite de testes automatizados usando PyTest, com integração contínua via GitHub Actions, demonstrando habilidades de SDET (Software Development Engineer in Test). O projeto simula práticas reais de automação de testes, organização de código e cobertura de testes em Python.
+This is an example automation test suite using PyTest, integrated with GitHub Actions for continuous integration (CI), demonstrating SDET (Software Development Engineer in Test) skills. The project showcases real-world automation practices, test organization, and code coverage reporting in Python.
 
 ⚙️ Key Activities
 
-🧪 Criação de testes automatizados usando PyTest
+🧪 Developed automated tests using PyTest
 
-⚡ Configuração de GitHub Actions para CI (Continuous Integration)
+⚡ Configured GitHub Actions for CI workflows
 
-📊 Geração de relatórios de cobertura de testes com pytest-cov
+📊 Generated test coverage reports with pytest-cov
 
-🧩 Estruturação de src/ e tests/ para fácil manutenção e escalabilidade
+🧩 Structured src/ and tests/ folders for maintainability and scalability
 
-📄 Documentação de setup, execução e boas práticas de teste
+📄 Documented setup, execution instructions, and best testing practices
 
 💡 Skills Demonstrated
 
-🖥️ Testes automatizados e validação de software
+🖥️ Automated testing and software validation
 
-🔄 Integração contínua (CI) e automação de pipelines
+🔄 Continuous integration (CI) and workflow automation
 
-📝 Documentação técnica e boas práticas de SDET
+📝 Technical documentation and SDET best practices
 
-🧩 Modularidade e manutenção de código
+🧩 Code modularity and maintainability
 
 🚀 How to Run
+git clone ( clone here )
 
-Clone o repositório:
-
-git clone https://github.com/RicardoServilla/Automation-Suite-Sdet.git
-cd Automation-Suite-Sdet
-
-
-Instale as dependências:
-
+Install dependencies:
 pip install -r requirements.txt
 
-
-Execute os testes:
-
+Run tests:
 pytest --cov=src tests/
 
-
-Confira a cobertura de testes:
-
+View test coverage report:
 open htmlcov/index.html
 
 
 🏁 Conclusion
-Este projeto demonstra habilidades práticas em automação de testes, SDET, integração contínua e organização de código, sendo um exemplo claro de como estruturar e manter uma suite de testes eficiente em Python.
+This project demonstrates practical skills in test automation, SDET practices, continuous integration, and code organization. It serves as a solid example of how to structure and maintain an efficient Python test suite.
 
 🚧 Status
-Work in Progress – melhorias contínuas, novos testes e integração com pipelines mais complexos.
+Work in Progress – ongoing improvements, additional tests, and advanced CI integration.
