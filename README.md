@@ -6,7 +6,6 @@
 Automation Test Suite example — PyTest + CI (GitHub Actions) to demonstrate SDET skills.
 
 📅 Duration: October 2025 – Present
-
 🖥️ Location: Remote / Self-initiated
 
 📝 Project Overview
