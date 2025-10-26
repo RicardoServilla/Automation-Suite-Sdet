@@ -18,11 +18,10 @@ Automation Suite SDET is a Python-based test automation project demonstrating SD
 🧩 Structured src/ and tests/ directories for modularity and maintainability  
 📄 Documented setup, execution instructions, and best testing practices
 
-
-💡 Skills Demonstrated
-🖥️ Automated testing and software validation
-🔄 Continuous Integration (CI) and workflow automation
-📝 Technical documentation and SDET best practices
+💡 Skills Demonstrated  
+🖥️ Automated testing and software validation  
+🔄 Continuous Integration (CI) and workflow automation  
+📝 Technical documentation and SDET best practices  
 🧩 Code modularity, maintainability, and scalability
 
 🚀 How to Run
