@@ -1,53 +1,54 @@
 ![Python Tests](https://github.com/RicardoServilla/Automation-Suite-Sdet/actions/workflows/pytest.yml/badge.svg)
 [![Coverage Status](https://codecov.io/gh/RicardoServilla/Automation-Suite-Sdet/branch/main/graph/badge.svg)](https://codecov.io/gh/RicardoServilla/Automation-Suite-Sdet)
 
-🤖 Automation Suite SDET (Personal Portfolio)
-
-Automation Test Suite example — PyTest + CI (GitHub Actions) to demonstrate SDET skills.
-
 📅 Duration: October 2025 – Present
+
 🖥️ Location: Remote / Self-initiated
 
 📝 Project Overview
-This is an example automation test suite using PyTest, integrated with GitHub Actions for continuous integration (CI), demonstrating SDET (Software Development Engineer in Test) skills. The project showcases real-world automation practices, test organization, and code coverage reporting in Python.
+
+Automation Suite SDET is a Python-based test automation project demonstrating SDET skills including automated testing, CI/CD integration, and code coverage analysis. It is designed as a scalable and maintainable test framework for software projects, showcasing real-world testing practices.
 
 ⚙️ Key Activities
 
-🧪 Developed automated tests using PyTest
-
-⚡ Configured GitHub Actions for CI workflows
-
-📊 Generated test coverage reports with pytest-cov
-
-🧩 Structured src/ and tests/ folders for maintainability and scalability
-
+🤖 Developed automated tests using PyTest
+💻 Configured GitHub Actions for CI workflows
+📊 Generated test coverage reports with pytest-cov and uploaded to Codecov
+🧩 Structured src/ and tests/ directories for modularity and maintainability
 📄 Documented setup, execution instructions, and best testing practices
 
 💡 Skills Demonstrated
 
 🖥️ Automated testing and software validation
-
-🔄 Continuous integration (CI) and workflow automation
-
+🔄 Continuous Integration (CI) and workflow automation
 📝 Technical documentation and SDET best practices
-
-🧩 Code modularity and maintainability
+🧩 Code modularity, maintainability, and scalability
 
 🚀 How to Run
-git clone ( clone here )
+
+Clone the repository:
+
+git clone https://github.com/RicardoServilla/Automation-Suite-Sdet.git
+cd Automation-Suite-Sdet
+
 
 Install dependencies:
+
 pip install -r requirements.txt
 
+
 Run tests:
+
 pytest --cov=src tests/
 
-View test coverage report:
+
+View coverage report (HTML):
+
 open htmlcov/index.html
 
-
 🏁 Conclusion
-This project demonstrates practical skills in test automation, SDET practices, continuous integration, and code organization. It serves as a solid example of how to structure and maintain an efficient Python test suite.
+
+This project demonstrates practical SDET and automation engineering skills, including Python test automation, CI/CD pipelines, and coverage reporting. It is a clear example of building maintainable, modular, and scalable test frameworks in Python.
 
 🚧 Status
-Work in Progress – ongoing improvements, additional tests, and advanced CI integration.
+Work in Progress – ongoing improvements, adding new tests, and expanding CI/CD integration.
