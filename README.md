@@ -22,7 +22,7 @@ Automation Suite SDET is a Python-based test automation project demonstrating SD
 
 🚀 How to Run
 Clone the repository:
-git clone 
+git clone <repository_url>
 
 Install dependencies:
 pip install -r requirements.txt
@@ -32,3 +32,9 @@ pytest --cov=src tests/
 
 View coverage report (HTML):
 open htmlcov/index.html
+
+🏁 Conclusion
+This project demonstrates practical skills in automated testing, CI/CD workflow management, and code coverage analysis. It provides a maintainable and scalable test framework suitable for real-world software projects.
+
+🚧 Status
+Work in Progress – ongoing improvements and new test feature development.
