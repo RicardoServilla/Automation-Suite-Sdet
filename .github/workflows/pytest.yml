@@ -25,4 +25,7 @@ jobs:
 
     - name: Run tests
       run: |
+        echo "Exporting PYTHONPATH and running pytest"
+        export PYTHONPATH=C:\Users\ricar\Documents\Automation-Suite-Sdet
+        python -c "import sys; print('PYTHONPATH:', sys.path[0])"
         pytest -q
